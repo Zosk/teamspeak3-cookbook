@@ -1,16 +1,9 @@
-{
-  "name": "teamspeak3-cookbook",
-  "version": "1.1.2",
-  "description": "Installs git and/or sets up a Teamspeak 3 servert",
-  "maintainer": "Nick van Liempt",
-  "maintainer_email": "nick.vanliempt@vanadgroup.com",
-  "license": "Apache 2.0",
-  "platforms": {
-    "centos": ">= 0.0.0",
-    "debian": ">= 0.0.0",
-    "ubuntu": ">= 0.0.0"
-  },
-  "dependencies": {
-    "runit": "~> 1.0"
-  }
-}
+name             "teamspeak3"
+maintainer       "Joshua Timberman"
+maintainer_email "cookbooks@housepub.org"
+license          "Apache 2.0"
+description      "Installs Teamspeak 3.0"
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          "1.1.1"
+
+depends "runit", "~> 1.0"
